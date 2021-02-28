@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/icHome"
+        android:id="@+id/ic_home"
         android:icon="@drawable/ic_baseline_home_24"
         android:title="@string/home"/>
     <item
-        android:id="@+id/icFavorite"
+        android:id="@+id/ic_favorite"
         android:icon="@drawable/ic_baseline_favorite_24"
         android:title="@string/favorite"/>
     <item
-        android:id="@+id/icSettings"
+        android:id="@+id/ic_settings"
         android:icon="@drawable/ic_baseline_settings_24"
         android:title="@string/settings"/>
 
