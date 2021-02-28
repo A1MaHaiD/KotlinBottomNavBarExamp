@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import com.example.bottomnavigationexamplekotlin.fragments.FavoriteFragment
 import com.example.bottomnavigationexamplekotlin.fragments.HomeFragment
 import com.example.bottomnavigationexamplekotlin.fragments.SettingsFragment
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main.view.*
 
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         val homeFragment = HomeFragment()
         val favoriteFragment = FavoriteFragment()
         val settingsFragment = SettingsFragment()
+
 
         makeCurrentFragment(homeFragment)
         main_fragLayout.bottomNavigation.setOnNavigationItemSelectedListener {
